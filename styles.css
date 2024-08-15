@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* Space for the fixed navbar */
+    background-color: #f4f4f9; /* Light gray background for the entire page */
+  }
+  
+  .navbar {
+    background-color: #343a40; /* Dark gray background for navbar */
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* White text color for navbar brand */
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa; /* Light gray text color for nav links */
+    font-size: 16px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #cce5ff; /* Light blue on hover */
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  h1, h2 {
+    color: #343a40; /* Dark gray for headings */
+  }
+  
+  /* Home Section */
+  .home-banner {
+    background-image: url('images/pizza-banner.jpg'); /* Add a background image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff; /* White text color for the banner */
+    padding: 80px 20px; /* Increased padding for a larger banner area */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+  
+  .home-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-banner p {
+    font-size: 1.5rem;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #ffffff; /* White background for forms */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #495057; /* Darker gray for label text */
+  }
+  
+  .form-group input {
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .form-group input:focus {
+    border-color: #80bdff; /* Light blue border on focus */
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Light blue shadow on focus */
+  }
+  
+  .btn {
+    background-color: #007bff; /* Bootstrap primary color */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* List Styles */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #ffffff; /* White background for list items */
+    border: 1px solid #dee2e6; /* Light gray border */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  ul li:hover {
+    background-color: #f1f1f1; /* Light gray background on hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #343a40; /* Dark gray background for footer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  }
+  
